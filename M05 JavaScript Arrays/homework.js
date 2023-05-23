@@ -69,13 +69,16 @@ function arrayContiene(array, elemento) {
    // Verifica si el elemento existe dentro del arreglo recibido.
    // Retornar true si está, o false si no está.
    // Tu código:
+   
    // return array.includes (elemento);//
+
    for (var i=0; i < array.length; i++){
       if (array[i]===elemento){
          return true;
       } 
    }
    return false
+
       
 }
 
@@ -217,13 +220,15 @@ function tablaDelSeis() {
    // Escribe una función que muestre la tabla de multiplicar del 6 (del 0 al 60).
    // La función devuelve un arreglo con los resultados de la tabla de multiplicar del 6 en orden creciente.
    // Tu código:
+ 
    var multiplosDeSeis = [];
 
    for (var i = 0; i <= 10; i++){
       multiplosDeSeis.push (i * 6);
    }
-   return multiplosDeSeis;
+   return multiplosDeSeis;   
 }
+
 
 function mayorACien(array) {
    // La función recibe un arreglo con enteros entre 0 y 200.
@@ -285,6 +290,8 @@ function continueStatement(num) {
       array.push(num);
    }
    return array;
+
+   
 }
 
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
