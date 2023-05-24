@@ -59,6 +59,9 @@ function multiplicarNumeroDesconocidoPorCinco(objetoMisterioso) {
    return resultado;
 }
 
+/* return  objetoMisterioso.numeroMisterioso *5;*/
+
+
 function eliminarPropiedad(objeto, propiedad) {
    // El parámetro "propiedad" es una propiedad del objeto que recibes.
    // Debes eliminarla del objeto y retornarlo finalmente.
@@ -71,6 +74,7 @@ function tieneEmail(objetoUsuario) {
    // Verifica si el "objetoUsuario", en su propiedad "email", posee un valor definido.
    // En ese caso retornar true. Caso contrario, false.
    // Tu código:
+   
    if (objetoUsuario.email){
       return true;
    }else {
